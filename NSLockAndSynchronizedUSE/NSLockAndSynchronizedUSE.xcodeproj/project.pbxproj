@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF7DBFE517CF2B5500F2688D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7DBFE417CF2B5500F2688D /* UIKit.framework */; };
+		CF7DBFE717CF2B5500F2688D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7DBFE617CF2B5500F2688D /* Foundation.framework */; };
+		CF7DBFE917CF2B5500F2688D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7DBFE817CF2B5500F2688D /* CoreGraphics.framework */; };
+		CF7DBFEF17CF2B5500F2688D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF7DBFED17CF2B5500F2688D /* InfoPlist.strings */; };
+		CF7DBFF117CF2B5500F2688D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7DBFF017CF2B5500F2688D /* main.m */; };
+		CF7DBFF517CF2B5500F2688D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7DBFF417CF2B5500F2688D /* AppDelegate.m */; };
+		CF7DBFF717CF2B5500F2688D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CF7DBFF617CF2B5500F2688D /* Default.png */; };
+		CF7DBFF917CF2B5500F2688D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF7DBFF817CF2B5500F2688D /* Default@2x.png */; };
+		CF7DBFFB17CF2B5500F2688D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF7DBFFA17CF2B5500F2688D /* Default-568h@2x.png */; };
+		CF7DC00317CF3B7C00F2688D /* ConmonSource.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7DC00217CF3B7C00F2688D /* ConmonSource.m */; };
+		CF7DC00617CF3C0400F2688D /* Bread.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7DC00517CF3C0400F2688D /* Bread.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF7DBFE117CF2B5500F2688D /* NSLockAndSynchronizedUSE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSLockAndSynchronizedUSE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7DBFE417CF2B5500F2688D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF7DBFE617CF2B5500F2688D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF7DBFE817CF2B5500F2688D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF7DBFEC17CF2B5500F2688D /* NSLockAndSynchronizedUSE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSLockAndSynchronizedUSE-Info.plist"; sourceTree = "<group>"; };
+		CF7DBFEE17CF2B5500F2688D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF7DBFF017CF2B5500F2688D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF7DBFF217CF2B5500F2688D /* NSLockAndSynchronizedUSE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSLockAndSynchronizedUSE-Prefix.pch"; sourceTree = "<group>"; };
+		CF7DBFF317CF2B5500F2688D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF7DBFF417CF2B5500F2688D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF7DBFF617CF2B5500F2688D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CF7DBFF817CF2B5500F2688D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CF7DBFFA17CF2B5500F2688D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CF7DC00117CF3B7C00F2688D /* ConmonSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConmonSource.h; sourceTree = "<group>"; };
+		CF7DC00217CF3B7C00F2688D /* ConmonSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConmonSource.m; sourceTree = "<group>"; };
+		CF7DC00417CF3C0400F2688D /* Bread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bread.h; sourceTree = "<group>"; };
+		CF7DC00517CF3C0400F2688D /* Bread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bread.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF7DBFDE17CF2B5500F2688D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7DBFE517CF2B5500F2688D /* UIKit.framework in Frameworks */,
+				CF7DBFE717CF2B5500F2688D /* Foundation.framework in Frameworks */,
+				CF7DBFE917CF2B5500F2688D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF7DBFD817CF2B5500F2688D = {
+			isa = PBXGroup;
+			children = (
+				CF7DBFEA17CF2B5500F2688D /* NSLockAndSynchronizedUSE */,
+				CF7DBFE317CF2B5500F2688D /* Frameworks */,
+				CF7DBFE217CF2B5500F2688D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF7DBFE217CF2B5500F2688D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF7DBFE117CF2B5500F2688D /* NSLockAndSynchronizedUSE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF7DBFE317CF2B5500F2688D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF7DBFE417CF2B5500F2688D /* UIKit.framework */,
+				CF7DBFE617CF2B5500F2688D /* Foundation.framework */,
+				CF7DBFE817CF2B5500F2688D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF7DBFEA17CF2B5500F2688D /* NSLockAndSynchronizedUSE */ = {
+			isa = PBXGroup;
+			children = (
+				CF7DBFF317CF2B5500F2688D /* AppDelegate.h */,
+				CF7DBFF417CF2B5500F2688D /* AppDelegate.m */,
+				CF7DC00117CF3B7C00F2688D /* ConmonSource.h */,
+				CF7DC00217CF3B7C00F2688D /* ConmonSource.m */,
+				CF7DC00417CF3C0400F2688D /* Bread.h */,
+				CF7DC00517CF3C0400F2688D /* Bread.m */,
+				CF7DBFEB17CF2B5500F2688D /* Supporting Files */,
+			);
+			path = NSLockAndSynchronizedUSE;
+			sourceTree = "<group>";
+		};
+		CF7DBFEB17CF2B5500F2688D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF7DBFEC17CF2B5500F2688D /* NSLockAndSynchronizedUSE-Info.plist */,
+				CF7DBFED17CF2B5500F2688D /* InfoPlist.strings */,
+				CF7DBFF017CF2B5500F2688D /* main.m */,
+				CF7DBFF217CF2B5500F2688D /* NSLockAndSynchronizedUSE-Prefix.pch */,
+				CF7DBFF617CF2B5500F2688D /* Default.png */,
+				CF7DBFF817CF2B5500F2688D /* Default@2x.png */,
+				CF7DBFFA17CF2B5500F2688D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF7DBFE017CF2B5500F2688D /* NSLockAndSynchronizedUSE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7DBFFE17CF2B5500F2688D /* Build configuration list for PBXNativeTarget "NSLockAndSynchronizedUSE" */;
+			buildPhases = (
+				CF7DBFDD17CF2B5500F2688D /* Sources */,
+				CF7DBFDE17CF2B5500F2688D /* Frameworks */,
+				CF7DBFDF17CF2B5500F2688D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSLockAndSynchronizedUSE;
+			productName = NSLockAndSynchronizedUSE;
+			productReference = CF7DBFE117CF2B5500F2688D /* NSLockAndSynchronizedUSE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF7DBFD917CF2B5500F2688D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = qsji;
+			};
+			buildConfigurationList = CF7DBFDC17CF2B5500F2688D /* Build configuration list for PBXProject "NSLockAndSynchronizedUSE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF7DBFD817CF2B5500F2688D;
+			productRefGroup = CF7DBFE217CF2B5500F2688D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF7DBFE017CF2B5500F2688D /* NSLockAndSynchronizedUSE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF7DBFDF17CF2B5500F2688D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7DBFEF17CF2B5500F2688D /* InfoPlist.strings in Resources */,
+				CF7DBFF717CF2B5500F2688D /* Default.png in Resources */,
+				CF7DBFF917CF2B5500F2688D /* Default@2x.png in Resources */,
+				CF7DBFFB17CF2B5500F2688D /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF7DBFDD17CF2B5500F2688D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7DBFF117CF2B5500F2688D /* main.m in Sources */,
+				CF7DBFF517CF2B5500F2688D /* AppDelegate.m in Sources */,
+				CF7DC00317CF3B7C00F2688D /* ConmonSource.m in Sources */,
+				CF7DC00617CF3C0400F2688D /* Bread.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF7DBFED17CF2B5500F2688D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7DBFEE17CF2B5500F2688D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF7DBFFC17CF2B5500F2688D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF7DBFFD17CF2B5500F2688D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF7DBFFF17CF2B5500F2688D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSLockAndSynchronizedUSE/NSLockAndSynchronizedUSE-Prefix.pch";
+				INFOPLIST_FILE = "NSLockAndSynchronizedUSE/NSLockAndSynchronizedUSE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF7DC00017CF2B5500F2688D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSLockAndSynchronizedUSE/NSLockAndSynchronizedUSE-Prefix.pch";
+				INFOPLIST_FILE = "NSLockAndSynchronizedUSE/NSLockAndSynchronizedUSE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF7DBFDC17CF2B5500F2688D /* Build configuration list for PBXProject "NSLockAndSynchronizedUSE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7DBFFC17CF2B5500F2688D /* Debug */,
+				CF7DBFFD17CF2B5500F2688D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF7DBFFE17CF2B5500F2688D /* Build configuration list for PBXNativeTarget "NSLockAndSynchronizedUSE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7DBFFF17CF2B5500F2688D /* Debug */,
+				CF7DC00017CF2B5500F2688D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF7DBFD917CF2B5500F2688D /* Project object */;
+}
